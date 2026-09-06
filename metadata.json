@@ -1,0 +1,6 @@
+{
+  "name": "Karigor",
+  "description": "Cloud Business Super Platform for Bangladesh SMEs - Build. Manage. Grow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
