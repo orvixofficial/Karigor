@@ -18,7 +18,7 @@ import androidx.room.RoomDatabase
         SupplierEntity::class,
         NotificationEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class KarigorDatabase : RoomDatabase() {

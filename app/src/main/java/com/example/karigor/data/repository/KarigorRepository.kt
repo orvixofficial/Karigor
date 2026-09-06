@@ -13,6 +13,7 @@ import java.util.*
  * Repository providing offline-first local data management for the Karigor business platform.
  * Backed by Room DAOs with reactive Flow queries and thread-safe coroutine operations.
  */
+@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
 class KarigorRepository(
     val productDao: ProductDao,
     val customerDao: CustomerDao,
